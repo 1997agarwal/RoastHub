@@ -1,0 +1,56 @@
+{
+  "name": "roasthub",
+  "version": "1.0.0",
+  "description": "The Savage Multi-Roast Machine for Tech & Startups. Pitch roasts, repo autopsies, and architectural sin receipts.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1997agarwal/RoastHub.git"
+  },
+  "keywords": [
+    "roast",
+    "startup",
+    "github",
+    "tech-stack",
+    "over-engineering",
+    "developer-tools",
+    "humor",
+    "ai",
+    "open-source"
+  ],
+  "author": "Harshit Agarwal <agarwal.harshit97@gmail.com> (https://github.com/1997agarwal)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1997agarwal/RoastHub/issues"
+  },
+  "homepage": "https://1997agarwal.github.io/RoastHub",
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "html-to-image": "^1.11.11",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^22.13.9",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7"
+  }
+}
