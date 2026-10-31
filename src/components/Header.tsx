@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({ aiConfig, onOpenAIModal }) => {
 
   return (
     <header className="sticky top-0 z-40 bg-charcoal-900/95 backdrop-blur-md border-b border-charcoal-700/60 px-4 py-3 sm:px-6">
-      <div className="max-w-6xl mx-auto flex items-center justify-between gap-3">
+      <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
         {/* Logo & Tagline */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-flame-500 to-amber-neon flex items-center justify-center shadow-lg shadow-flame-500/20 animate-flame-flicker">
