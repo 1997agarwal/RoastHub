@@ -34,7 +34,7 @@ Track the journey of RoastHub from conception to full v1.0 release.
   - [x] Global mute/unmute control.
 - [x] **Optional AI Turbo Mode (BYOK)**:
   - [x] Free Gemini, Groq, and OpenAI direct browser client.
-- [x] **Automated Testing Suite**: Vitest suite with full coverage of scoring algorithms and roast generators.
+- [x] **Automated Testing Suite**: 18 Vitest tests covering scoring algorithms, roast generators, the GitHub analyzer, and receipt export. Coverage is not measured (no coverage tool is configured).
 - [x] **GitHub Actions Workflow**: Auto-deploy to GitHub Pages on `main`.
 
 ---
